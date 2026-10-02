@@ -6,10 +6,6 @@ export function GET() {
   return Response.json(posts);
 }
 
-// Get por ID de los Docs =========
-
-
-
 // Post de los Docs =============
 
 export async function POST(request: Request) {
